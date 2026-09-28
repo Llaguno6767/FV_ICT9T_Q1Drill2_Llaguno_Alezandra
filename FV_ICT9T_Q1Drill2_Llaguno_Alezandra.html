@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+<style>
+    body{
+        background-color: rgb(255, 255, 255);
+        margin: 0;
+        min-height: auto;
+        front-family: Times New Roman;
+}
+section{
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: auto;
+    background-color:rgb(128, 128, 128);
+    box-shadow: 0px 3px 10px rgb(128, 128, 128) 
+    padding: 15px;
+}
+header{
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+  select, input[type=submit], textarea{
+width: 100%;
+border-radius: 5px;
+  }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Rate a Movie</h1>
+        <img src="https://www.vecteezy.com/free-vector/movie" alt="movie logo">
+        <p>Pick and watch a movie to watch with your loved ones.</p>
+    </header>
+    <br>
+
+    <section>
+<form action="">
+    <label for="movie"> Select a Movie</label>
+    <select id="movie" name="movie">
+    <option value="movie1">Toy Story</option>
+    <option value="movie2">K-pop Demon Hunters</option>
+    <option value="movie3">Kuroko's Basketball The Movie: Last Game</option>
+    </section>
+    <br><br>
+
+    <label for="Genre">Genre/s</label>
+    <br>
+    <input type="checkbox" id="Genre1" name="genre1" value="genre1">
+    <label for="Genre2">Adventure</label>
+        <input type="checkbox" id="Genre2" name="genre2" value="genre2">
+    <label for="Genre3">Fantasy</label>
+        <input type="checkbox" id="Genre3" name="genre3" value="genre3">
+    <label for="others">Others</label>
+
+    <br><br>
+    <label for="rate">Rating</label>
+    <br>
+    <input type="radio" id="rate1" name="rating" value="rate1">
+   <label for="rate1">⭐</label>
+    <input type="radio" id="rate2" name="rating" value="rate2">
+   <label for="rate1">⭐⭐</label>
+    <input type="radio" id="rate3" name="rating" value="rate3">
+   <label for="rate1">⭐⭐⭐</label>
+    <input type="radio" id="rate4" name="rating" value="rate4">
+   <label for="rate1">⭐⭐⭐⭐</label>
+    <input type="radio" id="rate5" name="rating" value="rate5">
+   <label for="rate1">⭐⭐⭐⭐⭐</label>
+   <br><br>
+
+<textarea id="review" name="review" cols="40" rows="4" placeholder="Write your review here..." ></textarea>
+
+<br><br>
+
+<input type="Submit" id="Submit" name="Submit" value="Submit a Review">
+<br>
+For more overview tips click <a href="https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/" target="_blank"> here. </a>
+</form>
+</selection>
+</body>
+</html>
